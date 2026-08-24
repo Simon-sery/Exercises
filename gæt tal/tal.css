@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #cccccc;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+#feedback {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Confetti */
+
+.confetti {
+  position: fixed;
+  top: -20px;
+  width: 10px;
+  height: 15px;
+  background-color: gold;
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(110vh);
+  }
+}

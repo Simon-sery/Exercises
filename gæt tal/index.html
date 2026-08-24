@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gæt et tal</title>
+
+    <link rel="stylesheet" href="tal.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Gæt et tal</h1>
+
+      <p>Jeg tænker på et tal mellem 0 og 100.</p>
+
+      <input
+        type="number"
+        id="guessInput"
+        min="0"
+        max="100"
+        placeholder="Skriv et tal"
+      />
+
+      <button id="guessButton">Gæt</button>
+
+      <p id="feedback">Skriv dit første gæt.</p>
+    </main>
+
+    <script src="const.js"></script>
+  </body>
+</html>
