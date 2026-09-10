@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Min ToDo App</h1>
+
+      <section class="add-task">
+        <h2>Opret task</h2>
+
+        <input type="text" id="taskInput" placeholder="Skriv en task" />
+
+        <input type="date" id="dateInput" />
+
+        <label>
+          <input type="checkbox" id="outdoorInput" />
+          Outdoor
+        </label>
+
+        <button id="addButton">Tilføj task</button>
+      </section>
+
+      <section>
+        <h2>ToDo</h2>
+        <ul id="todoList"></ul>
+      </section>
+
+      <section>
+        <h2>Færdig</h2>
+        <ul id="doneList"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
